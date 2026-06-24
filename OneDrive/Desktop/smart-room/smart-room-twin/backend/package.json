@@ -1,0 +1,17 @@
+{
+  "name": "smart-room-twin-backend",
+  "version": "1.0.0",
+  "description": "Node.js + Express + Socket.io Backend Telemetry & Decision Engine",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^4.21.2",
+    "multer": "^1.4.5-lts.1",
+    "socket.io": "^4.8.1"
+  }
+}

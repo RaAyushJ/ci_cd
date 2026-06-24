@@ -1,0 +1,6 @@
+{
+  "name": "Smart Room Digital Twin",
+  "description": "A modular Digital Twin web application for a Smart Room/Office setup featuring a 3D Gaussian Splat reconstruction viewer, 5 simulated live data overlays, and a 2-rule comfort/acoustic decision engine.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
