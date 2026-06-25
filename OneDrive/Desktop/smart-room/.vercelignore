@@ -1,0 +1,13 @@
+.git
+.gitignore
+README.md
+DEPLOYMENT.md
+node_modules
+.env.local
+.env.*.local
+smart-room-twin/backend
+server.ts
+tsconfig.json
+vite.config.ts
+src/
+dist/

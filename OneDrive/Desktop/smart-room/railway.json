@@ -1,0 +1,6 @@
+{
+  "build": {
+    "builder": "nixpacks"
+  },
+  "start": "cd smart-room-twin/backend && node server.js"
+}

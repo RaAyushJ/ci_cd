@@ -1,0 +1,14 @@
+{
+  "buildCommand": "cd smart-room-twin/frontend && npm install && npm run build",
+  "outputDirectory": "smart-room-twin/frontend/dist",
+  "env": {
+    "VITE_API_URL": "@vite_api_url",
+    "VITE_SOCKET_URL": "@vite_socket_url"
+  },
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
