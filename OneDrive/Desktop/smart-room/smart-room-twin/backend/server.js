@@ -23,7 +23,8 @@ const PORT = process.env.PORT || 5000;
 
 // 1. UPDATED CORS: Explicitly allow your Vercel frontend URL
 const allowedOrigins = [
-  'https://smart-home-frontend.vercel.app', // Update with your actual Vercel URL
+  'https://smart-home-frontend.vercel.app',
+  'https://smart-home-frontend-g3nx.vercel.app',// Update with your actual Vercel URL
   'http://localhost:3000',
   'http://localhost:5173'
 ];
