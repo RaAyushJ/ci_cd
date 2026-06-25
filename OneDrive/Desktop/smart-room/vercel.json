@@ -2,10 +2,16 @@
   "buildCommand": "cd smart-room-twin/frontend && npm ci && npm run build",
   "outputDirectory": "smart-room-twin/frontend/dist",
   "installCommand": "cd smart-room-twin/frontend && npm ci",
-  "rewrites": [
+  "cleanUrls": true,
+  "routes": [
     {
-      "source": "/(.*)",
-      "destination": "/index.html"
+      "src": "/index.html",
+      "status": 200
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/index.html",
+      "status": 200
     }
   ]
 }
