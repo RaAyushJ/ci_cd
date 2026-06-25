@@ -1,6 +1,7 @@
 {
-  "buildCommand": "cd smart-room-twin/frontend && npm install && npm run build",
+  "buildCommand": "cd smart-room-twin/frontend && npm ci && npm run build",
   "outputDirectory": "smart-room-twin/frontend/dist",
+  "installCommand": "cd smart-room-twin/frontend && npm ci",
   "rewrites": [
     {
       "source": "/(.*)",
